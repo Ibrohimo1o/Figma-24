@@ -4,6 +4,7 @@ import About from '../views/AboutView.vue'
 import Services from '@/views/ServicesView.vue'
 import Single from '@/views/SingleView.vue'
 import Doctors from '@/views/DoctorsView.vue'
+// import NewsViev from '@/views/NewsViev.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,7 @@ const router = createRouter({
       name: 'doctors',
       component: Doctors,
     },
+   
   ],
 })
 
